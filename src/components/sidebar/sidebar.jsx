@@ -7,6 +7,7 @@ import Greeting from "./greeting";
 import Version from "./version";
 import ActionButton from "./actionButton";
 import SidebarItem from "./sidebarItem";
+import GithubLink from "./githubLink";
 
 const drawerWidth = 240;
 
@@ -35,6 +36,7 @@ const Sidebar = () => {
           )
         )}
       </List>
+      <GithubLink />
     </Drawer>
   );
 };
