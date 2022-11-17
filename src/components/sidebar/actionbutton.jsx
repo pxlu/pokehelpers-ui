@@ -7,7 +7,7 @@ const ActionButton = () => {
       sx={{
         textAlign: "center",
         paddingTop: "10%",
-        paddingBottom: "10%",
+        paddingBottom: "5%",
       }}
     >
       <Button
