@@ -20,6 +20,7 @@ const Sidebar = () => {
         "& .MuiDrawer-paper": {
           width: drawerWidth,
           boxSizing: "border-box",
+          backgroundColor: "#F2F2F2",
         },
       }}
       variant="permanent"

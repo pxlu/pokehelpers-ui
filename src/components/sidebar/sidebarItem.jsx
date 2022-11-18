@@ -27,8 +27,19 @@ const SidebarItem = ({ text }) => {
   return (
     <ListItem disablePadding>
       <ListItemButton>
-        <ListItemIcon>{renderIcon(text)}</ListItemIcon>
-        <ListItemText primary={text} />
+        <ListItemIcon
+          sx={{
+            paddingLeft: "10px",
+          }}
+        >
+          {renderIcon(text)}
+        </ListItemIcon>
+        <ListItemText
+          primary={text}
+          primaryTypographyProps={{
+            fontWeight: "500",
+          }}
+        />
       </ListItemButton>
     </ListItem>
   );
