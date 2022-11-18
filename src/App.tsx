@@ -8,8 +8,6 @@ import Typography from "@mui/material/Typography";
 import Sidebar from "./components/sidebar/sidebar";
 import Topbar from "./components/topbar/topbar";
 
-const drawerWidth = 240;
-
 function App() {
   return (
     <Box sx={{ display: "flex" }}>

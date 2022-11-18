@@ -21,7 +21,14 @@ const GithubLink = () => {
           wrap="nowrap"
         >
           <Grid item paddingRight="5px">
-            <Typography align="center">Made with</Typography>
+            <Typography
+              align="center"
+              sx={{
+                fontWeight: "bold",
+              }}
+            >
+              Made with
+            </Typography>
           </Grid>
           <Grid item>
             <FavoriteIcon style={{ color: "red" }} />
@@ -32,8 +39,6 @@ const GithubLink = () => {
       <Grid item xd={12}>
         <Image
           src={logo}
-          // width="128x"
-          // height="128px"
           fit="contain"
           duration={0}
           style={{ paddingTop: 5 }}
