@@ -1,4 +1,5 @@
 import Grid from "@mui/material/Grid";
+import LastPlayed from "./lastplayed/lastplayed";
 
 // Component Imports
 import Welcome from "./welcome";
@@ -12,10 +13,18 @@ const HomeScreen = () => {
         p: 3,
       }}
     >
-      <Grid item>
+      <Grid
+        item
+        xs={12}
+        sx={{
+          paddingBottom: 2,
+        }}
+      >
         <Welcome />
       </Grid>
-      <Grid item></Grid>
+      <Grid item>
+        <LastPlayed />
+      </Grid>
     </Grid>
   );
 };

@@ -1,7 +1,6 @@
-import EmojiPeopleIcon from "@mui/icons-material/EmojiPeople";
 import Typography from "@mui/material/Typography";
 import Grid from "@mui/material/Grid";
-import SvgIcon, { SvgIconProps } from "@mui/material/SvgIcon";
+import SvgIcon from "@mui/material/SvgIcon";
 
 function HandWaveIcon(props) {
   return (
@@ -13,13 +12,7 @@ function HandWaveIcon(props) {
 
 const Welcome = () => {
   return (
-    <Grid
-      container
-      justifyContent="center"
-      alignItems="center"
-      direction="row"
-      wrap="nowrap"
-    >
+    <Grid container alignItems="center" direction="row" wrap="nowrap">
       <Grid item>
         <HandWaveIcon />
       </Grid>

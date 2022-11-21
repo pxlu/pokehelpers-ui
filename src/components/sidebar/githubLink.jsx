@@ -1,8 +1,8 @@
 import Image from "mui-image";
-import logo from "../../static/imgs/GitHub-Mark-120px-plus.png";
 import Grid from "@mui/material/Grid";
 import Typography from "@mui/material/Typography";
 import FavoriteIcon from "@mui/icons-material/FavoriteSharp";
+import logo from "../../static/imgs/GitHub-Mark-120px-plus.png";
 
 const GithubLink = () => {
   return (
