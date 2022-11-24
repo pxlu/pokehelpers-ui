@@ -22,7 +22,18 @@ const HomeScreen = () => {
       >
         <Welcome />
       </Grid>
+      <Grid item xs={6}>
+        <LastPlayed />
+      </Grid>
       <Grid item>
+        <LastPlayed />
+      </Grid>
+      <Grid
+        item
+        sx={{
+          marginTop: 2,
+        }}
+      >
         <LastPlayed />
       </Grid>
     </Grid>
