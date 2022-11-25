@@ -1,6 +1,6 @@
 import Grid from "@mui/material/Grid";
 import LastMatchFormat from "./lastmatchformat";
-import LastMatchInfo from "./lastmatchinfo";
+import LastMatchInfo from "./LastMatchInfo";
 
 const LastMatch = () => {
   return (
